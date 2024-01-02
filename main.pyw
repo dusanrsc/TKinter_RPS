@@ -1,3 +1,4 @@
+# all static files (images) need to be in the same directory as main.py for proper working!
 # importing modules
 import tkinter
 import random
