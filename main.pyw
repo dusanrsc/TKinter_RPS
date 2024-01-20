@@ -1,4 +1,3 @@
-# all static files (images) need to be in the same directory as main.py for proper working!
 # importing modules
 import tkinter
 import random
@@ -155,29 +154,29 @@ root.geometry(f"{SCREEN_WIDTH}x{SCREEN_HEIGHT}")
 
 # loading images
 # cpu image
-cpu_img = Image.open("img.png")
+cpu_img = Image.open("static/img.png")
 cpu_img1 = ImageTk.PhotoImage(cpu_img)
 
 # versus image
-vs = Image.open("vst.png")
+vs = Image.open("static/vst.png")
 vst = ImageTk.PhotoImage(vs)
 
-vs1 = Image.open("vsp.png")
+vs1 = Image.open("static/vsp.png")
 vsp = ImageTk.PhotoImage(vs1)
 
-vs2 = Image.open("vsc.png")
+vs2 = Image.open("static/vsc.png")
 vsc = ImageTk.PhotoImage(vs2)
 
 # rock image
-rock_img = Image.open("rock.png")
+rock_img = Image.open("static/rock.png")
 rock1 = ImageTk.PhotoImage(rock_img)
 
 # paper image
-paper_img = Image.open("paper.png")
+paper_img = Image.open("static/paper.png")
 paper1 = ImageTk.PhotoImage(paper_img)
 
 # scissors image
-scissors_img = Image.open("scissors.png")
+scissors_img = Image.open("static/scissors.png")
 scissors1 = ImageTk.PhotoImage(scissors_img)
 
 # drawing items on main root
